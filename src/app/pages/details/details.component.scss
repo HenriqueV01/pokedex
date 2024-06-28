@@ -43,7 +43,11 @@
 				position: absolute;
 				top: rem-calc(-90);
 				left: rem-calc(30);
-				max-width: rem-calc(130);
+        max-width: rem-calc(130);
+        max-height: rem-calc(130);
+        width: auto;
+        height: auto;;
+
 				z-index: 10;
 
 				//Remove Bug Animation
