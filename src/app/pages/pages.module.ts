@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing.modules';
 import { DetailsComponent } from './details/details.component';
 import { SharedModule } from '../shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,6 +16,7 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RoutingModule,
+    RouterModule,
     SharedModule
   ]
 })
