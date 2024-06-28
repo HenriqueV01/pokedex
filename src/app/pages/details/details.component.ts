@@ -14,7 +14,7 @@ export class DetailsComponent implements OnInit{
   private urlName: string = 'https://pokeapi.co/api/v2/pokemon-species';
 
   public pokemon: any;
-  public apiError: boolean = true;
+  public apiError: boolean = false;
 
   public isLoading: boolean = false;
 
